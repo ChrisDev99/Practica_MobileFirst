@@ -73,7 +73,7 @@ html
         color: var(--soft-orange);
     }
 
-    .header-container .header-container__button
+    .header-container__button
     {
         display: block;
         position: absolute;
@@ -101,3 +101,204 @@ html
         background-image: url('./Assets/Icons/down-arrow.svg');
     }
 /*Termina header*/
+
+/*Empieza main*/
+    main
+    {
+        width: 100%;
+        height: auto;
+        background-color: var(--off-white);
+    }
+    /*Empieza exchange section*/
+        .main-exchange-container
+        {
+            width: 100%;
+            height: auto;
+            padding-top: 80px;
+            padding-bottom: 30px;
+        }
+
+        .main-exchange-container__img
+        {
+            width: 200px;
+            height: 200px;
+            margin: 0 auto;
+            margin-bottom: 50px;
+            background-image: url('./Assets/Img/bitcoin.svg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .main-exchange-container__text
+        {
+            width: 90%;
+            min-width: 288px;
+            max-width: 900px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .main-exchange-container__text h2
+        {
+            margin-bottom: 20px;
+            font-size: 2.4rem;
+            font-weight: 700;
+            line-height: 2.6rem;
+            color: var(--black);
+        }
+
+        .main-exchange-container__text p
+        {
+            margin-bottom: 30px;
+            font-size: 1.4rem;
+            font-weight: 500;
+            line-height: 1.6rem;
+            color: #757575;
+        }
+
+        .tables-container
+        {
+            width: 100%;
+            height: auto;
+        }
+
+        .tables-container__card-table
+        {
+            width: 70%;
+            min-width: 235px;
+            max-width: 500px;
+            height: 360px;
+            margin: 0 auto;
+        }
+
+        .card-table__title
+        {
+            margin-left: 20px;
+            margin-bottom: 15px;
+            font-size: 1.8rem;
+            font-weight: 700;
+            line-height: 2.3rem;
+        }
+
+        .card-table__title--orange
+        {
+            color: var(--bitcoin-orange);
+        }
+
+        .card-table__title--blue
+        {
+            color: var(--secundary-blue);
+        }
+
+        .tables-container__card-table--table-container
+        {
+            width: 90%;
+            min-width: 230px;
+            max-width: 300px;
+            height: 250px;
+            margin: 0 auto;
+        }
+
+        .tables-container__card-table--table-container table
+        {
+            width: 100%;
+            height: 100%;
+            font-family: 'Inter', sans-serif;
+            font-size: 1.6rem;
+            font-weight: 500;
+            line-height: 1.9rem;
+            color: var(--grey);
+        }
+
+        .tables-container__card-table--table-container table td
+        {
+            width: 50%;
+            background-color: var(--just-white);
+        }
+
+        .tables-container__card-table--table-container table .column-left
+        {
+            padding-left: 15px;
+        }
+
+        .tables-container__card-table--table-container table .column-right
+        {
+            text-align: center;
+            font-size: 1.4rem;
+            font-weight: 500;
+            line-height: 1.7rem;
+            color: #757575;
+        }
+
+        .tables-container__card-table--table-container table .column-top-left
+        {
+            border-radius: 15px 0 0 0;
+        }
+
+        .tables-container__card-table--table-container table .column-top-right
+        {
+            border-radius: 0 15px 0 0;
+        }
+
+        .tables-container__card-table--table-container table .column-bottom-left
+        {
+            border-radius: 0 0 0 15px;
+        }
+
+        .tables-container__card-table--table-container table .column-bottom-right
+        {
+            border-radius: 0 0 15px 0;
+        }
+
+        .tables-container__card-table--table-container table .icon-treading
+        {
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            margin-left: 15px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .tables-container__card-table--table-container table .icon-treading--down
+        {
+            background-image: url('./Assets/Icons/trending-down.svg');
+        }
+
+        .tables-container__card-table--table-container table .icon-treading--up
+        {
+            background-image: url('./Assets/Icons/trending-up.svg');
+        }
+
+        .card-table__refresh
+        {
+            width: 190px;
+            height: 30px;
+            margin: 0 auto;
+            margin-top: 15px;
+            padding: 8px;
+            border-radius: 8px;
+        }
+
+        .card-table__refresh--orange
+        {
+            background-color: var(--soft-orange);
+        }
+
+        .card-table__refresh--blue
+        {
+            background-color: var(--soft-blue);
+        }
+
+        .card-table__refresh p
+        {
+            text-align: center;
+            font-size: 1.2rem;
+            font-weight: 300;
+            line-height: 1.5rem;
+            color: var(--warm-black);
+        }
+    /*Termina exchange section*/
+/*Termina main*/
