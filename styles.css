@@ -22,6 +22,7 @@ html
 {
     font-size: 62.5%;
     font-family: 'DM Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 
 /*Empieza header*/
@@ -439,4 +440,140 @@ html
             color: var(--just-white);
         }
     /*Termina benefits section*/
+    /*Empieza plans section*/
+        .main-plans-container
+        {
+            width: 100%;
+            min-width: 320px;
+            margin-top: 60px;
+            margin-bottom: 60px;
+        }
+
+        .main-plans-container__texts
+        {
+            width: 90%;
+            min-width: 288px;
+            height: auto;
+            margin: 0 auto;
+            margin-bottom: 50px;
+            text-align: center;
+        }
+
+        .main-plans-container__texts h2
+        {
+            margin-bottom: 20px;
+            font-size: 2.4rem;
+            font-weight: 700;
+            line-height: 2.6rem;
+            color: var(--black);
+        }
+
+        .main-plans-container__texts p
+        {
+            font-size: 1.4rem;
+            font-weight: 500;
+            line-height: 1.8rem;
+            color: #757575;
+        }
+
+        .plans-cards-container__card
+        {
+            position: relative;
+            width: 70%;
+            min-width: 230px;
+            max-width: 300px;
+            height: 250px;
+            margin: 0 auto;
+            padding: 0 15px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+            text-align: center;
+            background-color: var(--just-white);
+        }
+
+        .card__floated-text
+        {
+            width: 120px;
+            height: 31px;
+            padding: 8px;
+            position: absolute;
+            top: calc(0% - 15.5px);
+            left: calc(50% - 60px);
+            border-radius: 8px;
+            background-color: var(--bitcoin-orange);
+            font-family: 'Inter', sans-serif;
+            font-weight: 700;
+            font-size: 1.4rem;
+            line-height: 1.5rem;
+            color: var(--just-white);
+        }
+
+        .card-content-container
+        {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: inherit;
+            padding-top: 30px;
+            padding-bottom: 20px;
+            justify-content: space-between;
+        }
+
+        .card-content-container h3
+        {
+            margin-top: 10px;
+            font-weight: 700;
+            font-size: 1.4rem;
+            line-height: 1.2rem;
+            color: var(--black);
+        }
+
+        .card-content-container__price
+        {
+            margin-right: 12px;
+            font-weight: 700;
+            font-size: 5.2rem;
+            line-height: 6.3rem;
+            color: var(--black);
+        }
+
+        .card-content-container__price span
+        {
+            margin-right: 5px;
+            font-weight: 300;
+            font-size: 1.2rem;
+            vertical-align: 3rem;
+        }
+
+        .card-content-container__saving
+        {
+            font-size: 1.2rem;
+            color: #757575;
+        }
+
+        .card-content-container__call-action
+        {
+            width: 150px;
+            height: 48px;
+            margin-top: 10px;
+            align-self: center;
+            font-weight: 700;
+            font-size: 1.4rem;
+            line-height: 1.2rem;
+            color: var(--black);
+            background-color: var(--off-white);
+            border: 2px solid var(--bitcoin-orange);
+            border-radius: 4px;
+        }
+
+        .card-content-container__call-action span
+        {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            margin-left: 5px;
+            background-image: url('./Assets/Icons/orange-right-arrow.svg');
+            vertical-align: -0.4rem;
+        }
+    /*Termina plans section*/
 /*Termina main*/
