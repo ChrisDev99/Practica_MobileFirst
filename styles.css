@@ -479,10 +479,10 @@ html
         .plans-cards-container__card
         {
             position: relative;
-            width: 70%;
-            min-width: 230px;
+            width: 57%;
+            min-width: 183px;
             max-width: 300px;
-            height: 250px;
+            height: 260px;
             margin: 0 auto;
             padding: 0 15px;
             border-radius: 15px;
@@ -514,30 +514,36 @@ html
             flex-direction: column;
             width: 100%;
             height: inherit;
-            padding-top: 30px;
-            padding-bottom: 20px;
             justify-content: space-between;
         }
 
-        .card-content-container h3
+        .card-content-container__texts
         {
-            margin-top: 10px;
+            display: flex;
+            width: 100%;
+            height: 65%;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+
+        .card-content-container__texts h3
+        {
+            margin-top: 35px;
             font-weight: 700;
             font-size: 1.4rem;
             line-height: 1.2rem;
             color: var(--black);
         }
 
-        .card-content-container__price
+        .card-content-container__texts .card-content-container__texts--price
         {
             margin-right: 12px;
             font-weight: 700;
             font-size: 5.2rem;
-            line-height: 6.3rem;
             color: var(--black);
         }
 
-        .card-content-container__price span
+        .card-content-container__texts .card-content-container__texts--price span
         {
             margin-right: 5px;
             font-weight: 300;
@@ -545,7 +551,7 @@ html
             vertical-align: 3rem;
         }
 
-        .card-content-container__saving
+        .card-content-container__texts .card-content-container__texts--saving
         {
             font-size: 1.2rem;
             color: #757575;
@@ -555,7 +561,7 @@ html
         {
             width: 150px;
             height: 48px;
-            margin-top: 10px;
+            margin-bottom: 30px;
             align-self: center;
             font-weight: 700;
             font-size: 1.4rem;
