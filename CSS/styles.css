@@ -99,7 +99,7 @@ html
         width: 13px;
         height: 8px;
         margin-left: 10px;
-        background-image: url('./Assets/Icons/down-arrow.svg');
+        background-image: url('/Assets/Icons/down-arrow.svg');
     }
 /*Termina header*/
 
@@ -125,7 +125,7 @@ html
             height: 200px;
             margin: 0 auto;
             margin-bottom: 50px;
-            background-image: url('./Assets/Img/bitcoin.svg');
+            background-image: url('/Assets/Img/bitcoin.svg');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -265,12 +265,12 @@ html
 
         .tables-container__card-table--table-container table .icon-treading--down
         {
-            background-image: url('./Assets/Icons/trending-down.svg');
+            background-image: url('/Assets/Icons/trending-down.svg');
         }
 
         .tables-container__card-table--table-container table .icon-treading--up
         {
-            background-image: url('./Assets/Icons/trending-up.svg');
+            background-image: url('/Assets/Icons/trending-up.svg');
         }
 
         .card-table__refresh
@@ -320,7 +320,7 @@ html
             position: absolute;
             top: calc(0% - 12.5px);
             left: calc(50% - 20px);
-            background-image: url('./Assets/Icons/batata.svg');
+            background-image: url('/Assets/Icons/batata.svg');
         }
 
         .main-benefits-container__texts
@@ -364,11 +364,11 @@ html
             max-width: 400px;
             height: 150px;
             margin: 0 auto;
+            margin-bottom: 15px;
             padding: 15px;
             border-radius: 5px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
             background-color: var(--black);
-            margin-bottom: 15px;
         }
 
         .card__icon
@@ -384,22 +384,22 @@ html
 
         .card__icon--clock
         {
-            background-image: url('./Assets/Icons/clock.svg');
+            background-image: url('/Assets/Icons/clock.svg');
         }
 
         .card__icon--eye
         {
-            background-image: url('./Assets/Icons/eye.svg');
+            background-image: url('/Assets/Icons/eye.svg');
         }
 
         .card__icon--dollar-sign
         {
-            background-image: url('./Assets/Icons/dollar-sign.svg');
+            background-image: url('/Assets/Icons/dollar-sign.svg');
         }
 
         .card__icon--check-circle
         {
-            background-image: url('./Assets/Icons/check-circle.svg');
+            background-image: url('/Assets/Icons/check-circle.svg');
         }
 
         .benefits-cards-container__card h3
@@ -424,7 +424,7 @@ html
             width: 100%;
             min-width: 320px;
             height: 68.134vh;
-            background-image: url('./Assets/Img/bitcoinbaby2x.jpg');
+            background-image: url('/Assets/Img/bitcoinbaby2x.jpg');
             background-position: center;
             background-size: cover;
             background-repeat: no-repeat;
@@ -586,15 +586,6 @@ html
             background-color: var(--off-white);
             border: 2px solid var(--bitcoin-orange);
             border-radius: 4px;
-        }
-
-        .card-content-container__call-action span
-        {
-            width: 20px;
-            height: 20px;
-            margin-left: 5px;
-            background-image: url('./Assets/Icons/orange-right-arrow.svg');
-            vertical-align: -0.4rem;
         }
     /*Termina plans section*/
 /*Termina main*/

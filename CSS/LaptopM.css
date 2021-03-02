@@ -1,0 +1,25 @@
+/*Empieza exchange section*/
+    .card-table__title
+    {
+        margin-left: 50px;
+    }
+
+    .tables-container
+    {
+        padding: 0 265px;
+    }
+/*Termina exchange section*/
+/*Empieza benefits section*/
+    .benefits-cards-container
+    {
+        display: flex;
+        padding: 0 205px;
+        flex-wrap: wrap;
+    }
+/*Termina benefits section*/
+/*Empieza plans section*/
+    .plans-cards-container
+    {
+        margin: 0 250px;
+    }
+/*Termina plans section*/

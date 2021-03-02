@@ -1,0 +1,29 @@
+/*Empieza exchange section*/
+    .tables-container
+    {
+        display: flex;
+        margin-top: 50px;
+        padding: 0 45px;
+    }
+
+    .tables-container__card-table
+    {
+        width: 50%;
+    }
+
+    .card-table__title
+    {
+        margin-left: 35px;
+    }
+
+    .tables-container__card-table--table-container
+    {
+        width: 100%;
+    }
+/*Termina exchange section*/
+/*Empieza plans section*/
+    .plans-cards-container
+    {
+        margin: 0 65px;
+    }
+/*Termina plans section*/
